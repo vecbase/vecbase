@@ -8,7 +8,7 @@ anywhere! A successor to [`sqlite-vss`](https://github.com/asg017/sqlite-vss)
 <!-- deno-fmt-ignore-start -->
 
 > [!IMPORTANT]
-> _`sqlite-vec` is a pre-v1, so expect breaking changes!_
+> _`vecbase` is a pre-v1, so expect breaking changes!_
 
 <!-- deno-fmt-ignore-end -->
 
@@ -17,28 +17,6 @@ anywhere! A successor to [`sqlite-vss`](https://github.com/asg017/sqlite-vss)
   (Linux/MacOS/Windows, in the browser with WASM, Raspberry Pis, etc.)
 - Store non-vector data in metadata, auxiliary, or partition key columns
 
-<p align="center">
-  <a href="https://hacks.mozilla.org/2024/06/sponsoring-sqlite-vec-to-enable-more-powerful-local-ai-applications/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./.github/logos/mozilla.dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./.github/logos/mozilla.svg">
-    <img alt="Mozilla Builders logo" width=400>
-  </picture>
-  </a>
-</p>
-
-<p align="center">
-<i>
-<code>sqlite-vec</code> is a
-<a href="https://hacks.mozilla.org/2024/06/sponsoring-sqlite-vec-to-enable-more-powerful-local-ai-applications/">Mozilla Builders project</a>,
-with additional sponsorship from
-<a href="https://fly.io/"><img width=14px src="./.github/logos/flyio.small.ico"/> Fly.io </a>,
-<a href="https://tur.so/sqlite-vec"><img width=14px src="./.github/logos/turso.small.ico"/> Turso</a>,
-<a href="https://sqlitecloud.io/"><img width=14px src="./.github/logos/sqlitecloud.small.svg"/> SQLite Cloud</a>, and
-<a href="https://shinkai.com/"><img width=14px src="./.github/logos/shinkai.small.svg"/> Shinkai</a>.
-See <a href="#sponsors">the Sponsors section</a> for more details.
-</i>
-</p>
 
 ## Installing
 
@@ -94,67 +72,4 @@ limit 2;
 */
 ```
 
-## Sponsors
 
-Development of `sqlite-vec` is supported by multiple generous sponsors! Mozilla
-is the main sponsor through the new Builders project.
-<p align="center">
-  <a href="https://hacks.mozilla.org/2024/06/sponsoring-sqlite-vec-to-enable-more-powerful-local-ai-applications/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./.github/logos/mozilla.dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./.github/logos/mozilla.svg">
-    <img alt="Mozilla Builders logo" width=400>
-  </picture>
-  </a>
-</p>
-
-`sqlite-vec` is also sponsored by the following companies:
-
-<a href="https://fly.io/">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./.github/logos/flyio.dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./.github/logos/flyio.svg">
-  <img alt="Fly.io logo" src="./.github/logos/flyio.svg" width="48%">
-</picture>
-</a>
-
-<a href="https://tur.so/sqlite-vec">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./.github/logos/turso.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./.github/logos/turso.svg">
-  <img alt="Turso logo" src="./.github/logos/turso.svg" width="48%">
-</picture>
-</a>
-
-<a href="https://sqlitecloud.io/">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./.github/logos/sqlitecloud.dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./.github/logos/sqlitecloud.svg">
-  <img alt="SQLite Cloud logo" src="./.github/logos/flyio.svg" width="48%">
-</picture>
-</a>
-
-<a href="https://shinkai.com">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./.github/logos/shinkai.dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./.github/logos/shinkai.svg">
-
-  <img alt="Shinkai logo" src="./.github/logos/shinkai.svg" width="48%">
-</picture>
-</a>
-
-As well as multiple individual supporters on
-[Github sponsors](https://github.com/sponsors/asg017/)!
-
-If your company interested in sponsoring `sqlite-vec` development, send me an
-email to get more info: https://alexgarcia.xyz
-
-## See Also
-
-- [**`sqlite-ecosystem`**](https://github.com/asg017/sqlite-ecosystem), Maybe
-  more 3rd party SQLite extensions I've developed
-- [**`sqlite-rembed`**](https://github.com/asg017/sqlite-rembed), Generate text
-  embeddings from remote APIs like OpenAI/Nomic/Ollama, meant for testing and
-  SQL scripts
-- [**`sqlite-lembed`**](https://github.com/asg017/sqlite-lembed), Generate text
-  embeddings locally from embedding models in the `.gguf` format
