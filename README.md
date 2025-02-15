@@ -1,6 +1,6 @@
-# `sqlite-vec`
+# `vecbase`
 
-[![](https://dcbadge.vercel.app/api/server/VCtQ8cGhUs)](https://discord.gg/Ve7WeCJFXk)
+
 
 An extremely small, "fast enough" vector search SQLite extension that runs
 anywhere! A successor to [`sqlite-vss`](https://github.com/asg017/sqlite-vss)
